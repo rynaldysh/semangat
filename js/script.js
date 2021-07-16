@@ -6,7 +6,7 @@ let doi;
 if (url.searchParams.get('in') != null) {
   doi = url.searchParams.get('in');
 } else {
-  doi = "Linda";
+  doi = "Widi Mustika";
 }
 
 let footer = document.getElementById("credit");
@@ -99,7 +99,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                           title: 'Oh iya aku mau nanya',
                           text: 'Ada sesuatu yang lagi kamu pingin ga?',
                           showDenyButton: true,
-                          confirmButtonText: `Ada ada beibi`,
+                          confirmButtonText: `Ada sayangggg`,
                           denyButtonText: `Ga ada ko`,
                         }).then((result) => {
                           /* Read more about isConfirmed, isDenied below */
@@ -107,7 +107,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                             Swal.fire({
                               title: 'Mau apa?',
                               input: 'text',
-                              inputPlaceholder: 'ex: Seblacc, boba, or etc',
+                              inputPlaceholder: 'ex: salad, boba, or etc',
                               showCancelButton: false,
                               inputValidator: (value) => {
                                 if (!value) {
